@@ -18,3 +18,10 @@ python yolo.py --video-path='/path/to/video/'
 `conda install -c conda-forge opencv`
 `pip install yolov3`
 
+
+### To analysis the noise impact for residents besides MRT, this is the new way to get the time period when train passbys by detecting train from video.
+#### 
+- Using OpenCV to decomposite video to frames and get the images, timestamp from each frame.
+- Using Yolo to detect train, if there is train from the image, then record the timestamp.
+- Output the time period by applying the algorithm to calculate the train passbys' timestamps.
+
