@@ -1,0 +1,10 @@
+*.weights
+*.swp
+images/
+__pycache__/
+*.avi
+.idea/
+.ipynb_checkpoints/
+*.MOV
+*.png
+*.mp4
